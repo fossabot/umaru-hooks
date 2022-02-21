@@ -1,0 +1,19 @@
+# misc
+.DS_Store
+
+# editor
+.idea/
+
+# log
+*.log
+
+# output
+dist/
+.umi/
+temp/
+temp-types/
+coverage/
+tsdoc-metadata.json
+
+# npm
+node_modules/
