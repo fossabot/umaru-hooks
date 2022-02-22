@@ -1,0 +1,13 @@
+{
+  "extends": ["config:base"],
+  "labels": ["dependencies"],
+  "assignees": ["0x219"],
+  "reviewers": ["0x219"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePatterns": ["lint", "prettier"],
+      "automerge": true
+    }
+  ]
+}
